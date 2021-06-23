@@ -1,5 +1,6 @@
 .nav-item {
-  @include font($pt-mono, $medium, $spanish-gray);
+  @include font($pt-mono, $spanish-gray);
+  @include relative-converter(font-size, vw, $medium, $vp-width);
   text-decoration: none;
 }
 .nav-item:hover {

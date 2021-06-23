@@ -40,10 +40,11 @@ padding: 1.75vw 5.5vw;
 //Header section
 .header {
   clear: both;
-  display: flex;
   width: 100vw;
   & .header__image {
     width: 70vw;
+    box-sizing: border-box;
+    float: left;
     position: relative;
     & .image {
 
@@ -67,6 +68,9 @@ padding: 1.75vw 5.5vw;
   }
   & .header__title {
     width: 30vw;
+    height: 34.25vw;
+    box-sizing: border-box;
+    float: left;
     position: relative;
     padding-top: 5vw;
     padding-left: 5vw;
@@ -102,12 +106,13 @@ padding: 1.75vw 5.5vw;
 }
 //Footer section
 .footer {
-  display: flex;
+  clear: both;
   width: 100vw;
   position: relative;
   & .footer__text {
     width: 70vw;
     height: 21.25vw;
+    float: left;
     position: relative;
     & .text {
       padding: 5vw;
@@ -136,6 +141,8 @@ padding: 1.75vw 5.5vw;
   }
   & .footer__image {
     width: 30vw;
+    height: 21.25vw;
+    float: left;
   }
   & .footer__relative {
     width: 7.5vw;

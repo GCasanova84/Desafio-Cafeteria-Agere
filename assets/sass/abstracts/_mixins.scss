@@ -1,5 +1,9 @@
-@mixin font($f-fam, $f-size, $f-color) {
+@mixin font($f-fam, $f-color) {
   font-family: $f-fam;
-  font-size: $f-size;
   color: $f-color;
+}
+
+@mixin relative-converter($property, $unit, $target, $context) {
+  $result: 100*($target/$context);
+  #{$property}: #{$result + $unit};
 }

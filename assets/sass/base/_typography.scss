@@ -1,18 +1,24 @@
 h1 {
-  @include font($pt-mono, $xxx-large, $black);
+  @include font($pt-mono, $black);
+  @include relative-converter(font-size, vw, $xxx-large, $vp-width);
 }
 h2 {
-  @include font($pt-mono, $xx-large, $black);
+  @include font($pt-mono, $black);
+  @include relative-converter(font-size, vw, $xx-large, $vp-width);
 }
 h3 {
-  @include font($pt-mono, $x-large, $black);
+  @include font($pt-mono, $black);
+  @include relative-converter(font-size, vw, $x-large, $vp-width);
 }
 h4 {
-  @include font($roboto, $large, $black);
+  @include font($roboto, $black);
+  @include relative-converter(font-size, vw, $large, $vp-width);
 }
 h5 {
-  @include font($roboto, $medium, $black);
+  @include font($roboto, $black);
+  @include relative-converter(font-size, vw, $medium, $vp-width);
 }
 p {
-  @include font($roboto, $medium, $black);
+  @include font($roboto, $black);
+  @include relative-converter(font-size, vw, $medium, $vp-width);
 }

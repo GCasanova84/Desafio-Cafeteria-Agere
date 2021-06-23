@@ -10743,44 +10743,44 @@ img {
 
 h1, .h1 {
   font-family: "PT Mono", monospace;
-  font-size: 70px;
   color: #000000;
+  font-size: 5.1890289103vw;
 }
 
 h2, .h2 {
   font-family: "PT Mono", monospace;
-  font-size: 40px;
   color: #000000;
+  font-size: 2.9651593773vw;
 }
 
 h3, .h3 {
   font-family: "PT Mono", monospace;
-  font-size: 30px;
   color: #000000;
+  font-size: 2.223869533vw;
 }
 
 h4, .h4 {
   font-family: "Roboto", sans-serif;
-  font-size: 18px;
   color: #000000;
+  font-size: 1.3343217198vw;
 }
 
 h5, .h5 {
   font-family: "Roboto", sans-serif;
-  font-size: 16px;
   color: #000000;
+  font-size: 1.1860637509vw;
 }
 
 p {
   font-family: "Roboto", sans-serif;
-  font-size: 16px;
   color: #000000;
+  font-size: 1.1860637509vw;
 }
 
 .nav-item {
   font-family: "PT Mono", monospace;
-  font-size: 16px;
   color: #989797;
+  font-size: 1.1860637509vw;
   text-decoration: none;
 }
 
@@ -10790,8 +10790,8 @@ p {
 
 .primary-button {
   font-family: "PT Mono", monospace;
-  font-size: 16px;
   color: #989797;
+  font-size: 1.1860637509vw;
   border-color: #989797;
 }
 
@@ -10803,8 +10803,8 @@ p {
 
 .secondary-buttton {
   font-family: "PT Mono", monospace;
-  font-size: 16px;
   color: #FFF;
+  font-size: 1.1860637509vw;
   background-color: #4CA866;
   border-color: #4CA866;
 }
@@ -10861,11 +10861,12 @@ p {
 
 .header {
   clear: both;
-  display: flex;
   width: 100vw;
 }
 .header .header__image {
   width: 70vw;
+  box-sizing: border-box;
+  float: left;
   position: relative;
 }
 .header .header__image .image-text {
@@ -10886,6 +10887,9 @@ p {
 }
 .header .header__title {
   width: 30vw;
+  height: 34.25vw;
+  box-sizing: border-box;
+  float: left;
   position: relative;
   padding-top: 5vw;
   padding-left: 5vw;
@@ -10918,13 +10922,14 @@ p {
 }
 
 .footer {
-  display: flex;
+  clear: both;
   width: 100vw;
   position: relative;
 }
 .footer .footer__text {
   width: 70vw;
   height: 21.25vw;
+  float: left;
   position: relative;
 }
 .footer .footer__text .text {
@@ -10953,6 +10958,8 @@ p {
 }
 .footer .footer__image {
   width: 30vw;
+  height: 21.25vw;
+  float: left;
 }
 .footer .footer__relative {
   width: 7.5vw;

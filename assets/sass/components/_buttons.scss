@@ -1,5 +1,6 @@
 .primary-button {
-  @include font($pt-mono, $medium, $spanish-gray);
+  @include font($pt-mono, $spanish-gray);
+  @include relative-converter(font-size, vw, $medium, $vp-width);
   border-color: $spanish-gray;
 }
 .primary-button:hover {
@@ -8,7 +9,8 @@
   background-color: transparent;
 }
 .secondary-buttton {
-  @include font($pt-mono, $medium, $white);
+  @include font($pt-mono, $white);
+  @include relative-converter(font-size, vw, $medium, $vp-width);
   background-color: $shiny-shamrock;
   border-color: $shiny-shamrock;
 }
