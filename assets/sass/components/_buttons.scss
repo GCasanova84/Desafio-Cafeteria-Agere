@@ -1,0 +1,23 @@
+.primary-button {
+  @include font($pt-mono, $medium, $spanish-gray);
+  border-color: $spanish-gray;
+}
+.primary-button:hover {
+  color: $black;
+  border-color: $black;
+  background-color: transparent;
+}
+.secondary-buttton {
+  @include font($pt-mono, $medium, $white);
+  background-color: $shiny-shamrock;
+  border-color: $shiny-shamrock;
+}
+.secondary-buttton:hover {
+  color: $outer-space;
+  background-color: $turquoise-green;
+  border-color: $turquoise-green;
+}
+.btn {
+  border-radius: 0;
+  padding: 0.25em 0.5em;
+}

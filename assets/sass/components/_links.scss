@@ -1,0 +1,7 @@
+.nav-item {
+  @include font($pt-mono, $medium, $spanish-gray);
+  text-decoration: none;
+}
+.nav-item:hover {
+  color: $black;
+}

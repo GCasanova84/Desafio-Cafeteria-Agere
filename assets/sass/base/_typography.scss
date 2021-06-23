@@ -1,0 +1,18 @@
+h1 {
+  @include font($pt-mono, $xxx-large, $black);
+}
+h2 {
+  @include font($pt-mono, $xx-large, $black);
+}
+h3 {
+  @include font($pt-mono, $x-large, $black);
+}
+h4 {
+  @include font($roboto, $large, $black);
+}
+h5 {
+  @include font($roboto, $medium, $black);
+}
+p {
+  @include font($roboto, $medium, $black);
+}
